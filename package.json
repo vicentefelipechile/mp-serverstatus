@@ -1,0 +1,29 @@
+{
+  "name": "mp-serverstatus",
+  "version": "0.0.1",
+  "description": "Revisa el estado del servidor usando solo paquetes http",
+  "main": "src/index.ts",
+  "scripts": {
+    "test": "ts-node src/index.ts",
+    "build": "npx wrangler deploy --dry-run --outdir=dist",
+    "deploy": "npx wrangler deploy --env production",
+    "dev": "npx wrangler dev"
+  },
+  "keywords": [
+    "gmod",
+    "garrysmod"
+  ],
+  "author": "vicentefelipechile & lugent",
+  "license": "ISC",
+  "dependencies": {
+    "itty-router": "5.0.18"
+  },
+  "devDependencies": {
+    "@types/node": "22.13.4",
+    "dotenv": "16.4.7",
+    "wrangler": "3.109.1"
+  },
+  "browser": {
+    "child_process": false
+  }
+}

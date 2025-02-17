@@ -1,0 +1,8 @@
+GCLOUD_PROJECT_ID=your-project-id
+GCLOUD_PROJECT_ZONE=your-project-zone
+GCLOUD_INSTANCE_NAME=your-instance-name
+
+// https://cloud.google.com/docs/authentication/rest?hl=es-419#user-creds
+GCLOUD_ACCESS_TOKEN=your-credentials
+
+HEADER_ACCESS_VALUE=your-header-value
